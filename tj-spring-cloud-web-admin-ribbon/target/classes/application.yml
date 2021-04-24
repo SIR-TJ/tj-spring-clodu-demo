@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: tj-spring-cloud-web-andim-ribbon
+  zipkin:
+    base-url: http://localhost:8768
+  thymeleaf:
+    cache: false #开发时关闭缓存，不然没办法看到实时页面
+    mode: LEGACYHYML5 #用非严格的html
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+  boot:
+    admin:
+      client:
+        url: http://localhost:8700
+
+server:
+  port: 8764
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

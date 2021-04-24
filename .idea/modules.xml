@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-pring-cloud-zuul/tj-pring-cloud-zuul.iml" filepath="$PROJECT_DIR$/tj-pring-cloud-zuul/tj-pring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-admin/tj-spring-cloud-admin.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-admin/tj-spring-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-config/tj-spring-cloud-config.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-config/tj-spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-dependencles/tj-spring-cloud-dependencles.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-dependencles/tj-spring-cloud-dependencles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-eureka/tj-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-eureka/tj-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-service-admin/tj-spring-cloud-service-admin.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-service-admin/tj-spring-cloud-service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-web-admin-feign/tj-spring-cloud-web-admin-feign.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-web-admin-feign/tj-spring-cloud-web-admin-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-web-admin-ribbon/tj-spring-cloud-web-andim-ribbon.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-web-admin-ribbon/tj-spring-cloud-web-andim-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-spring-cloud-zipkin/tj-spring-cloud-zipkin.iml" filepath="$PROJECT_DIR$/tj-spring-cloud-zipkin/tj-spring-cloud-zipkin.iml" />
+    </modules>
+  </component>
+</project>

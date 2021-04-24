@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: tj-spring-cloud-eureka
+  zipkin:
+    base-url: http://localhost:8768
+  boot:
+    admin:
+      client:
+        url: http://localhost:8700
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: tj-spring-cloud-config
+  cloud:
+    config:
+      label: master #仓库
+      server:
+        git:
+          uri: https://github.com/SIR-TJ/spring-cloud-config.git
+          search-paths: respo
+          username: SIR-TJ
+          password: qW3297863
+
+server:
+  port: 8888 #默认8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
